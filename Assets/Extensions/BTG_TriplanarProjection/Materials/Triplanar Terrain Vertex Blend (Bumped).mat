@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Triplanar Terrain Vertex Blend (Bumped)
+  m_Shader: {fileID: 4800000, guid: 62652aa7e271cac439d18aaec7a4a0dc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 4ae35559b30550349ba230b7dcf82922, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 2800000, guid: af8aea795ceff964a9036510d9dde8b9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MainTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: 7c92368b8ec7af843abd2780dfa0ab13, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex1
+        second:
+          m_Texture: {fileID: 2800000, guid: c22c4471ba995e84e8c229b14daa0073, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex2
+        second:
+          m_Texture: {fileID: 2800000, guid: dc1cde921f8ebfd4ebbac3e347406670, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex3
+        second:
+          m_Texture: {fileID: 2800000, guid: af236df54607dd043b1d4e3caead3153, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendTex4
+        second:
+          m_Texture: {fileID: 2800000, guid: 0229d0c3747503742b52a12f3b4e13cb, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap2
+        second:
+          m_Texture: {fileID: 2800000, guid: a6c86504225f4db40a1e4f5035719f5f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendBump1
+        second:
+          m_Texture: {fileID: 2800000, guid: 2224ad94192239b4b924af8e642ac5db, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendBump2
+        second:
+          m_Texture: {fileID: 2800000, guid: ae157c9ee97d86a41bce7f0fd9dd3799, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendBump3
+        second:
+          m_Texture: {fileID: 2800000, guid: 521fc2181e1456045b4e3acc9e50fbc6, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BlendBump4
+        second:
+          m_Texture: {fileID: 2800000, guid: 0cf0338c14b0e1344a93234828926fe2, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Tiling
+        second: 3
+      data:
+        first:
+          name: _Power
+        second: 10
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

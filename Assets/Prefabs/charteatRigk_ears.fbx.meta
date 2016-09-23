@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 4fc427cbaed0da3448c541ac15950c71
+timeCreated: 1472520032
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    400000: //RootNode
+    4300000: Sphere.096
+    7400000: Sphere.096|Armature.001Action
+    7400002: Sphere.096|Low Poly Characte.000Action
+    7400004: Sphere.096|Low Poly Characte.000Action.001
+    7400006: Sphere.096|Low Poly Characte.000Action.002
+    7400008: Sphere.096|Low Poly Characte.000Action.004
+    7400010: Sphere.096|Low Poly Characte.000Action.006
+    7400012: Sphere.096|Low Poly Characte.000Action.007
+    7400014: Sphere.096|Low Poly Characte.000Action.008
+    7400016: Sphere.096|Low Poly Characte.000Action.009
+    7400018: Sphere.096|Low Poly Characte.000Action.010
+    7400020: Sphere.096|Low Poly Characte.000Action.013
+    7400022: Sphere.096|Low Poly Characte.000Action.014
+    7400024: Sphere.096|Low Poly Characte.000Action.017
+    7400026: Sphere.096|Low Poly Characte.000Action.018
+    7400028: Sphere.096|Low Poly Characte.000Action.019
+    7400030: Sphere.096|Low Poly Characte.000Action.020
+    7400032: Sphere.096|Low Poly Characte.000Action.023
+    7400034: Sphere.096|Low Poly Characte.000Action.024
+    7400036: Sphere.096|Low Poly Characte.000Action.025
+    7400038: Sphere.096|Low Poly Characte.000Action.026
+    7400040: Sphere.096|Low Poly Characte.000Action.031
+    7400042: Sphere.096|Low Poly Characte.000Action.032
+    7400044: Sphere.096|Low Poly Characte.000Action.033
+    7400046: Sphere.096|Low Poly Characte.000Action.034
+    7400048: Sphere.096|Low Poly Characte.000Action.035
+    7400050: Sphere.096|Low Poly Characte.000Action.037
+    7400052: Sphere.096|Low Poly Characte.000Action.038
+    7400054: Sphere.096|Low Poly Characte.000Action.039
+    7400056: Sphere.096|Low Poly Characte.000Action.040
+    7400058: Sphere.096|Sphere.076Action
+    7400060: Sphere.096|Sphere.076Action.001
+    7400062: Sphere.096|Sphere.076Action.002
+    7400064: Sphere.096|Sphere.076Action.003
+    7400066: Sphere.096|Sphere.076Action.005
+    7400068: Sphere.096|Sphere.076Action.006
+    7400070: Sphere.096|Sphere.077Action
+    7400072: Sphere.096|Sphere.077Action.001
+    7400074: Sphere.096|Sphere.077Action.002
+    7400076: Sphere.096|Sphere.077Action.003
+    7400078: Sphere.096|Sphere.077Action.005
+    7400080: Sphere.096|Sphere.078Action
+    7400082: Sphere.096|Sphere.078Action.001
+    7400084: Sphere.096|Sphere.078Action.002
+    7400086: Sphere.096|Sphere.078Action.003
+    7400088: Sphere.096|Sphere.078Action.005
+    7400090: Sphere.096|Sphere.079Action
+    7400092: Sphere.096|Sphere.079Action.001
+    7400094: Sphere.096|Sphere.079Action.002
+    7400096: Sphere.096|Sphere.079Action.003
+    7400098: Sphere.096|Sphere.079Action.005
+    9500000: //RootNode
+    13700000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

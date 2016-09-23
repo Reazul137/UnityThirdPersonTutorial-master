@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\OWfront_createRegiao.js">
+    <Files>
+      <File FileName="Assets\Scripts\FronteirasCreator.cs" Line="48" Column="70" />
+      <File FileName="Assets\Plugins\RegiaoInfo.cs" Line="1" Column="1" />
+      <File FileName="Assets\ParticlesCrator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\OWfront_createRegiao.js" Line="11" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

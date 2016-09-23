@@ -1,0 +1,290 @@
+fileFormatVersion: 2
+guid: 22fa1eb72e3fc684c99e86613a1469ef
+timeCreated: 1472518952
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Low Poly Characte.033
+    100004: Low Poly Characte.034
+    100006: Low Poly Characte.037
+    100008: Low Poly Characte.041
+    400000: //RootNode
+    400002: Low Poly Characte.033
+    400004: Low Poly Characte.034
+    400006: Low Poly Characte.037
+    400008: Low Poly Characte.041
+    4300000: Low Poly Characte.041
+    4300002: Low Poly Characte.037
+    4300004: Low Poly Characte.034
+    4300006: Low Poly Characte.033
+    7400000: Low Poly Characte.041|Armature.001Action
+    7400002: Low Poly Characte.041|Low Poly Characte.000Action
+    7400004: Low Poly Characte.041|Low Poly Characte.000Action.001
+    7400006: Low Poly Characte.041|Low Poly Characte.000Action.002
+    7400008: Low Poly Characte.041|Low Poly Characte.000Action.004
+    7400010: Low Poly Characte.041|Low Poly Characte.000Action.006
+    7400012: Low Poly Characte.041|Low Poly Characte.000Action.007
+    7400014: Low Poly Characte.041|Low Poly Characte.000Action.008
+    7400016: Low Poly Characte.041|Low Poly Characte.000Action.009
+    7400018: Low Poly Characte.041|Low Poly Characte.000Action.010
+    7400020: Low Poly Characte.041|Low Poly Characte.000Action.013
+    7400022: Low Poly Characte.041|Low Poly Characte.000Action.014
+    7400024: Low Poly Characte.041|Low Poly Characte.000Action.017
+    7400026: Low Poly Characte.041|Low Poly Characte.000Action.018
+    7400028: Low Poly Characte.041|Low Poly Characte.000Action.019
+    7400030: Low Poly Characte.041|Low Poly Characte.000Action.020
+    7400032: Low Poly Characte.041|Low Poly Characte.000Action.023
+    7400034: Low Poly Characte.041|Low Poly Characte.000Action.024
+    7400036: Low Poly Characte.041|Low Poly Characte.000Action.025
+    7400038: Low Poly Characte.041|Low Poly Characte.000Action.026
+    7400040: Low Poly Characte.041|Low Poly Characte.000Action.031
+    7400042: Low Poly Characte.041|Low Poly Characte.000Action.032
+    7400044: Low Poly Characte.041|Low Poly Characte.000Action.033
+    7400046: Low Poly Characte.041|Low Poly Characte.000Action.034
+    7400048: Low Poly Characte.041|Low Poly Characte.000Action.035
+    7400050: Low Poly Characte.041|Low Poly Characte.000Action.037
+    7400052: Low Poly Characte.041|Low Poly Characte.000Action.038
+    7400054: Low Poly Characte.041|Low Poly Characte.000Action.039
+    7400056: Low Poly Characte.041|Low Poly Characte.000Action.040
+    7400058: Low Poly Characte.041|Sphere.076Action
+    7400060: Low Poly Characte.041|Sphere.076Action.001
+    7400062: Low Poly Characte.041|Sphere.076Action.002
+    7400064: Low Poly Characte.041|Sphere.076Action.003
+    7400066: Low Poly Characte.041|Sphere.076Action.005
+    7400068: Low Poly Characte.041|Sphere.076Action.006
+    7400070: Low Poly Characte.041|Sphere.077Action
+    7400072: Low Poly Characte.041|Sphere.077Action.001
+    7400074: Low Poly Characte.041|Sphere.077Action.002
+    7400076: Low Poly Characte.041|Sphere.077Action.003
+    7400078: Low Poly Characte.041|Sphere.077Action.005
+    7400080: Low Poly Characte.041|Sphere.078Action
+    7400082: Low Poly Characte.041|Sphere.078Action.001
+    7400084: Low Poly Characte.041|Sphere.078Action.002
+    7400086: Low Poly Characte.041|Sphere.078Action.003
+    7400088: Low Poly Characte.041|Sphere.078Action.005
+    7400090: Low Poly Characte.041|Sphere.079Action
+    7400092: Low Poly Characte.041|Sphere.079Action.001
+    7400094: Low Poly Characte.041|Sphere.079Action.002
+    7400096: Low Poly Characte.041|Sphere.079Action.003
+    7400098: Low Poly Characte.041|Sphere.079Action.005
+    7400100: Low Poly Characte.037|Armature.001Action
+    7400102: Low Poly Characte.037|Low Poly Characte.000Action
+    7400104: Low Poly Characte.037|Low Poly Characte.000Action.001
+    7400106: Low Poly Characte.037|Low Poly Characte.000Action.002
+    7400108: Low Poly Characte.037|Low Poly Characte.000Action.004
+    7400110: Low Poly Characte.037|Low Poly Characte.000Action.006
+    7400112: Low Poly Characte.037|Low Poly Characte.000Action.007
+    7400114: Low Poly Characte.037|Low Poly Characte.000Action.008
+    7400116: Low Poly Characte.037|Low Poly Characte.000Action.009
+    7400118: Low Poly Characte.037|Low Poly Characte.000Action.010
+    7400120: Low Poly Characte.037|Low Poly Characte.000Action.013
+    7400122: Low Poly Characte.037|Low Poly Characte.000Action.014
+    7400124: Low Poly Characte.037|Low Poly Characte.000Action.017
+    7400126: Low Poly Characte.037|Low Poly Characte.000Action.018
+    7400128: Low Poly Characte.037|Low Poly Characte.000Action.019
+    7400130: Low Poly Characte.037|Low Poly Characte.000Action.020
+    7400132: Low Poly Characte.037|Low Poly Characte.000Action.023
+    7400134: Low Poly Characte.037|Low Poly Characte.000Action.024
+    7400136: Low Poly Characte.037|Low Poly Characte.000Action.025
+    7400138: Low Poly Characte.037|Low Poly Characte.000Action.026
+    7400140: Low Poly Characte.037|Low Poly Characte.000Action.031
+    7400142: Low Poly Characte.037|Low Poly Characte.000Action.032
+    7400144: Low Poly Characte.037|Low Poly Characte.000Action.033
+    7400146: Low Poly Characte.037|Low Poly Characte.000Action.034
+    7400148: Low Poly Characte.037|Low Poly Characte.000Action.035
+    7400150: Low Poly Characte.037|Low Poly Characte.000Action.037
+    7400152: Low Poly Characte.037|Low Poly Characte.000Action.038
+    7400154: Low Poly Characte.037|Low Poly Characte.000Action.039
+    7400156: Low Poly Characte.037|Low Poly Characte.000Action.040
+    7400158: Low Poly Characte.037|Sphere.076Action
+    7400160: Low Poly Characte.037|Sphere.076Action.001
+    7400162: Low Poly Characte.037|Sphere.076Action.002
+    7400164: Low Poly Characte.037|Sphere.076Action.003
+    7400166: Low Poly Characte.037|Sphere.076Action.005
+    7400168: Low Poly Characte.037|Sphere.076Action.006
+    7400170: Low Poly Characte.037|Sphere.077Action
+    7400172: Low Poly Characte.037|Sphere.077Action.001
+    7400174: Low Poly Characte.037|Sphere.077Action.002
+    7400176: Low Poly Characte.037|Sphere.077Action.003
+    7400178: Low Poly Characte.037|Sphere.077Action.005
+    7400180: Low Poly Characte.037|Sphere.078Action
+    7400182: Low Poly Characte.037|Sphere.078Action.001
+    7400184: Low Poly Characte.037|Sphere.078Action.002
+    7400186: Low Poly Characte.037|Sphere.078Action.003
+    7400188: Low Poly Characte.037|Sphere.078Action.005
+    7400190: Low Poly Characte.037|Sphere.079Action
+    7400192: Low Poly Characte.037|Sphere.079Action.001
+    7400194: Low Poly Characte.037|Sphere.079Action.002
+    7400196: Low Poly Characte.037|Sphere.079Action.003
+    7400198: Low Poly Characte.037|Sphere.079Action.005
+    7400200: Low Poly Characte.034|Armature.001Action
+    7400202: Low Poly Characte.034|Low Poly Characte.000Action
+    7400204: Low Poly Characte.034|Low Poly Characte.000Action.001
+    7400206: Low Poly Characte.034|Low Poly Characte.000Action.002
+    7400208: Low Poly Characte.034|Low Poly Characte.000Action.004
+    7400210: Low Poly Characte.034|Low Poly Characte.000Action.006
+    7400212: Low Poly Characte.034|Low Poly Characte.000Action.007
+    7400214: Low Poly Characte.034|Low Poly Characte.000Action.008
+    7400216: Low Poly Characte.034|Low Poly Characte.000Action.009
+    7400218: Low Poly Characte.034|Low Poly Characte.000Action.010
+    7400220: Low Poly Characte.034|Low Poly Characte.000Action.013
+    7400222: Low Poly Characte.034|Low Poly Characte.000Action.014
+    7400224: Low Poly Characte.034|Low Poly Characte.000Action.017
+    7400226: Low Poly Characte.034|Low Poly Characte.000Action.018
+    7400228: Low Poly Characte.034|Low Poly Characte.000Action.019
+    7400230: Low Poly Characte.034|Low Poly Characte.000Action.020
+    7400232: Low Poly Characte.034|Low Poly Characte.000Action.023
+    7400234: Low Poly Characte.034|Low Poly Characte.000Action.024
+    7400236: Low Poly Characte.034|Low Poly Characte.000Action.025
+    7400238: Low Poly Characte.034|Low Poly Characte.000Action.026
+    7400240: Low Poly Characte.034|Low Poly Characte.000Action.031
+    7400242: Low Poly Characte.034|Low Poly Characte.000Action.032
+    7400244: Low Poly Characte.034|Low Poly Characte.000Action.033
+    7400246: Low Poly Characte.034|Low Poly Characte.000Action.034
+    7400248: Low Poly Characte.034|Low Poly Characte.000Action.035
+    7400250: Low Poly Characte.034|Low Poly Characte.000Action.037
+    7400252: Low Poly Characte.034|Low Poly Characte.000Action.038
+    7400254: Low Poly Characte.034|Low Poly Characte.000Action.039
+    7400256: Low Poly Characte.034|Low Poly Characte.000Action.040
+    7400258: Low Poly Characte.034|Sphere.076Action
+    7400260: Low Poly Characte.034|Sphere.076Action.001
+    7400262: Low Poly Characte.034|Sphere.076Action.002
+    7400264: Low Poly Characte.034|Sphere.076Action.003
+    7400266: Low Poly Characte.034|Sphere.076Action.005
+    7400268: Low Poly Characte.034|Sphere.076Action.006
+    7400270: Low Poly Characte.034|Sphere.077Action
+    7400272: Low Poly Characte.034|Sphere.077Action.001
+    7400274: Low Poly Characte.034|Sphere.077Action.002
+    7400276: Low Poly Characte.034|Sphere.077Action.003
+    7400278: Low Poly Characte.034|Sphere.077Action.005
+    7400280: Low Poly Characte.034|Sphere.078Action
+    7400282: Low Poly Characte.034|Sphere.078Action.001
+    7400284: Low Poly Characte.034|Sphere.078Action.002
+    7400286: Low Poly Characte.034|Sphere.078Action.003
+    7400288: Low Poly Characte.034|Sphere.078Action.005
+    7400290: Low Poly Characte.034|Sphere.079Action
+    7400292: Low Poly Characte.034|Sphere.079Action.001
+    7400294: Low Poly Characte.034|Sphere.079Action.002
+    7400296: Low Poly Characte.034|Sphere.079Action.003
+    7400298: Low Poly Characte.034|Sphere.079Action.005
+    7400300: Low Poly Characte.033|Armature.001Action
+    7400302: Low Poly Characte.033|Low Poly Characte.000Action
+    7400304: Low Poly Characte.033|Low Poly Characte.000Action.001
+    7400306: Low Poly Characte.033|Low Poly Characte.000Action.002
+    7400308: Low Poly Characte.033|Low Poly Characte.000Action.004
+    7400310: Low Poly Characte.033|Low Poly Characte.000Action.006
+    7400312: Low Poly Characte.033|Low Poly Characte.000Action.007
+    7400314: Low Poly Characte.033|Low Poly Characte.000Action.008
+    7400316: Low Poly Characte.033|Low Poly Characte.000Action.009
+    7400318: Low Poly Characte.033|Low Poly Characte.000Action.010
+    7400320: Low Poly Characte.033|Low Poly Characte.000Action.013
+    7400322: Low Poly Characte.033|Low Poly Characte.000Action.014
+    7400324: Low Poly Characte.033|Low Poly Characte.000Action.017
+    7400326: Low Poly Characte.033|Low Poly Characte.000Action.018
+    7400328: Low Poly Characte.033|Low Poly Characte.000Action.019
+    7400330: Low Poly Characte.033|Low Poly Characte.000Action.020
+    7400332: Low Poly Characte.033|Low Poly Characte.000Action.023
+    7400334: Low Poly Characte.033|Low Poly Characte.000Action.024
+    7400336: Low Poly Characte.033|Low Poly Characte.000Action.025
+    7400338: Low Poly Characte.033|Low Poly Characte.000Action.026
+    7400340: Low Poly Characte.033|Low Poly Characte.000Action.031
+    7400342: Low Poly Characte.033|Low Poly Characte.000Action.032
+    7400344: Low Poly Characte.033|Low Poly Characte.000Action.033
+    7400346: Low Poly Characte.033|Low Poly Characte.000Action.034
+    7400348: Low Poly Characte.033|Low Poly Characte.000Action.035
+    7400350: Low Poly Characte.033|Low Poly Characte.000Action.037
+    7400352: Low Poly Characte.033|Low Poly Characte.000Action.038
+    7400354: Low Poly Characte.033|Low Poly Characte.000Action.039
+    7400356: Low Poly Characte.033|Low Poly Characte.000Action.040
+    7400358: Low Poly Characte.033|Sphere.076Action
+    7400360: Low Poly Characte.033|Sphere.076Action.001
+    7400362: Low Poly Characte.033|Sphere.076Action.002
+    7400364: Low Poly Characte.033|Sphere.076Action.003
+    7400366: Low Poly Characte.033|Sphere.076Action.005
+    7400368: Low Poly Characte.033|Sphere.076Action.006
+    7400370: Low Poly Characte.033|Sphere.077Action
+    7400372: Low Poly Characte.033|Sphere.077Action.001
+    7400374: Low Poly Characte.033|Sphere.077Action.002
+    7400376: Low Poly Characte.033|Sphere.077Action.003
+    7400378: Low Poly Characte.033|Sphere.077Action.005
+    7400380: Low Poly Characte.033|Sphere.078Action
+    7400382: Low Poly Characte.033|Sphere.078Action.001
+    7400384: Low Poly Characte.033|Sphere.078Action.002
+    7400386: Low Poly Characte.033|Sphere.078Action.003
+    7400388: Low Poly Characte.033|Sphere.078Action.005
+    7400390: Low Poly Characte.033|Sphere.079Action
+    7400392: Low Poly Characte.033|Sphere.079Action.001
+    7400394: Low Poly Characte.033|Sphere.079Action.002
+    7400396: Low Poly Characte.033|Sphere.079Action.003
+    7400398: Low Poly Characte.033|Sphere.079Action.005
+    9500000: //RootNode
+    13700000: Low Poly Characte.033
+    13700002: Low Poly Characte.034
+    13700004: Low Poly Characte.037
+    13700006: Low Poly Characte.041
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

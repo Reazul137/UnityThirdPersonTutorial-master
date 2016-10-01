@@ -1,0 +1,448 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: TerainShaderForge
+  m_Shader: {fileID: 4800000, guid: b1d349a401f24ea42b4fd7c489f11122, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailNormalMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ParallaxMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _OcclusionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _EmissionMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailMask
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DetailAlbedoMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _MetallicGlossMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_7996
+        second:
+          m_Texture: {fileID: 2800000, guid: 28c7aad1372ff114b90d330f8a2dd938, type: 3}
+          m_Scale: {x: 100, y: 100}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Grass
+        second:
+          m_Texture: {fileID: 2800000, guid: cb3091d98f2bdcc4da29018eecf3742d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_6138
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_6791
+        second:
+          m_Texture: {fileID: 2800000, guid: cb3091d98f2bdcc4da29018eecf3742d, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_4484
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Rock
+        second:
+          m_Texture: {fileID: 2800000, guid: 7991400c2e0b2a144ba514326539006f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_8987
+        second:
+          m_Texture: {fileID: 2800000, guid: eef76c08c4f033d4da89cba94e343141, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_5325
+        second:
+          m_Texture: {fileID: 2800000, guid: be8ba36906c193046ad1bd6a3a00b1ad, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Dirt
+        second:
+          m_Texture: {fileID: 2800000, guid: 7991400c2e0b2a144ba514326539006f, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_7402
+        second:
+          m_Texture: {fileID: 1330974226, guid: c3e17cb7b06626d4287f04d4bade615d,
+            type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_3414
+        second:
+          m_Texture: {fileID: 1330974226, guid: c3e17cb7b06626d4287f04d4bade615d,
+            type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_7889
+        second:
+          m_Texture: {fileID: 1330974226, guid: c3e17cb7b06626d4287f04d4bade615d,
+            type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_8863
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _SrcBlend
+        second: 1
+      data:
+        first:
+          name: _DstBlend
+        second: 0
+      data:
+        first:
+          name: _Cutoff
+        second: 0.5
+      data:
+        first:
+          name: _Parallax
+        second: 0.02
+      data:
+        first:
+          name: _ZWrite
+        second: 1
+      data:
+        first:
+          name: _Glossiness
+        second: 0.5
+      data:
+        first:
+          name: _BumpScale
+        second: 1
+      data:
+        first:
+          name: _OcclusionStrength
+        second: 1
+      data:
+        first:
+          name: _DetailNormalMapScale
+        second: 1
+      data:
+        first:
+          name: _UVSec
+        second: 0
+      data:
+        first:
+          name: _Mode
+        second: 0
+      data:
+        first:
+          name: _Metallic
+        second: 0
+      data:
+        first:
+          name: _EmissionScaleUI
+        second: 0
+      data:
+        first:
+          name: _Temp
+        second: 0
+      data:
+        first:
+          name: _node_132
+        second: 6.7
+      data:
+        first:
+          name: _node_8094
+        second: 0.51
+      data:
+        first:
+          name: _node_5748
+        second: 0.037
+      data:
+        first:
+          name: _node_6019
+        second: 9.7
+      data:
+        first:
+          name: _node_1042
+        second: 0.48
+      data:
+        first:
+          name: _Temp_copy
+        second: 0
+      data:
+        first:
+          name: _node_5752
+        second: 0
+      data:
+        first:
+          name: _node_3124
+        second: 0
+      data:
+        first:
+          name: _BeachHigth
+        second: 0.89
+      data:
+        first:
+          name: _node_6432
+        second: 1
+      data:
+        first:
+          name: _GrassHigth
+        second: 5
+      data:
+        first:
+          name: _GrassHigth_copy
+        second: 1.366285
+      data:
+        first:
+          name: _Beach
+        second: 2.176317
+      data:
+        first:
+          name: _SnowHigth
+        second: 1.102053
+      data:
+        first:
+          name: _sendHigth
+        second: 0
+      data:
+        first:
+          name: _node_5354
+        second: 1
+      data:
+        first:
+          name: _node_4978
+        second: 0
+      data:
+        first:
+          name: _node_2359
+        second: 0.58
+      data:
+        first:
+          name: _node_9124
+        second: 0.12
+      data:
+        first:
+          name: _Rock_Sat
+        second: 0.539
+      data:
+        first:
+          name: _Rock_hue
+        second: 0.149
+      data:
+        first:
+          name: _Grass_Hue
+        second: 0.22
+      data:
+        first:
+          name: _Grass_Sat
+        second: 0.25
+      data:
+        first:
+          name: _Rock_spread
+        second: 0.9
+      data:
+        first:
+          name: _Snow_spread
+        second: 0.5
+      data:
+        first:
+          name: _Beach_spread
+        second: 0.26
+      data:
+        first:
+          name: _Dirt_Sat
+        second: 0.246
+      data:
+        first:
+          name: _Dirt_hue
+        second: 0.47
+      data:
+        first:
+          name: _node_2332
+        second: 1.34
+      data:
+        first:
+          name: _Dirt_sand_dif
+        second: 1.47
+      data:
+        first:
+          name: _node_2763
+        second: 0.63
+      data:
+        first:
+          name: _node_2647
+        second: 0.55
+      data:
+        first:
+          name: _Sand_higth
+        second: 0.16
+      data:
+        first:
+          name: _Grass_spread
+        second: 0.817
+      data:
+        first:
+          name: _node_9519
+        second: 0.1
+      data:
+        first:
+          name: _node_7518
+        second: 0
+      data:
+        first:
+          name: _node_1922
+        second: 0.23
+      data:
+        first:
+          name: _node_8412
+        second: 0
+      data:
+        first:
+          name: _node_9014
+        second: 0
+      data:
+        first:
+          name: _node_2444
+        second: 2
+      data:
+        first:
+          name: _node_4613
+        second: 6.3
+    m_Colors:
+      data:
+        first:
+          name: _EmissionColor
+        second: {r: 0, g: 0, b: 0, a: 1}
+      data:
+        first:
+          name: _Color
+        second: {r: 0.3455882, g: 0.28950897, b: 0.21853372, a: 1}
+      data:
+        first:
+          name: _EmissionColorUI
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _NeveCoolor
+        second: {r: 0.72794116, g: 0.72794116, b: 0.26762542, a: 1}
+      data:
+        first:
+          name: _Grass
+        second: {r: 0.07586217, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _RockWall
+        second: {r: 0.3455882, g: 0.3230163, b: 0.2744377, a: 1}
+      data:
+        first:
+          name: _SnowTop
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Sand
+        second: {r: 1, g: 0.9310344, b: 0, a: 1}
+      data:
+        first:
+          name: _Color_copy
+        second: {r: 0.46095335, g: 0.5, b: 0.4595588, a: 1}
+      data:
+        first:
+          name: _NeveCoolor_copy
+        second: {r: 0.14381489, g: 0.6985294, b: 0.22664626, a: 1}
+      data:
+        first:
+          name: _RockWall_copy
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _Grass_copy
+        second: {r: 0.07586217, g: 1, b: 0, a: 1}
+      data:
+        first:
+          name: _Grass_cor
+        second: {r: 0, g: 1, b: 0.1724138, a: 1}

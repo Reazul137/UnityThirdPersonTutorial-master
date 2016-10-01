@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &141204
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 445388}
+  - 114: {fileID: 11491330}
+  m_Layer: 0
+  m_Name: InterestPointManeger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &445388
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141204}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 264.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11491330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 141204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e943f95c716de45b9c7872fd03661d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InterestPoints: []
+  RegiaoCenter: {fileID: 163370, guid: f239993e1ffaab24ab00b5c01e3156f5, type: 2}
+  DungEntrance: {fileID: 189492, guid: 207dc34e0faaeb646aec509fc258645c, type: 2}
+  Crator_Tree: {fileID: 153398, guid: 7d22ff3d80816014c87b9d92ae883528, type: 2}
+  Crator_Grass: {fileID: 192468, guid: 3e9d529852f958a47b9733ccf83ab459, type: 2}
+  Crator_Rock: {fileID: 100490, guid: ad543ecf4f70e344eaecb79efe13be3c, type: 2}
+  Crator_Pott: {fileID: 179352, guid: 6c85d55032d000243ba03398ebb6857b, type: 2}
+  InterestPointsTipelist: 
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 141204}
+  m_IsPrefabParent: 1

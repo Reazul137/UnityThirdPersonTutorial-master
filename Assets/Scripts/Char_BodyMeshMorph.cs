@@ -10,6 +10,7 @@ public class Char_BodyMeshMorph : MonoBehaviour {
 	public bool isColorRandom;
 
 	public bool useBones;
+	public bool willCreateColider;
 
 
 
@@ -79,7 +80,7 @@ public class Char_BodyMeshMorph : MonoBehaviour {
 
 
 		if (isRandom) {
-			ActivadeRandom (this.GetInstanceID());
+			ActivadeRandom (this.name.GetHashCode());
                                                             
 		}   
 
@@ -98,7 +99,24 @@ public class Char_BodyMeshMorph : MonoBehaviour {
 			//mesh.RecalculateNormals ();
 			skinMeshRenderer.sharedMesh = mesh;
 		}
+		if(willCreateColider){
+			Mesh mesh = new Mesh();
+			skinMeshRenderer.BakeMesh (mesh);
+			transform.gameObject.AddComponent<MeshCollider> ();
+			transform.GetComponent<MeshCollider>().sharedMesh = mesh;
+		}
+
+
+
+
+
+
 		skinMeshRenderer.sharedMesh.RecalculateNormals(); 
+
+
+
+
+		Destroy (this.GetComponent<Char_BodyMeshMorph> ());
 	                                                                      
 	}                                                                     
 

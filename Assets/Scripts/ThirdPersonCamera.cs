@@ -127,6 +127,7 @@ public class ThirdPersonCamera : MonoBehaviour
 	private Vector3 nearClipDimensions = Vector3.zero; // width, height, radius
 	private Vector3[] viewFrustum;
 	private Vector3 characterOffset;
+	public Vector3 characterOffset2;
 	private Vector3 targetPosition;	
 	
 	#endregion
@@ -221,7 +222,7 @@ public class ThirdPersonCamera : MonoBehaviour
 		camState = startingState;
 
 		// Intialize values to avoid having 0s
-		characterOffset = followXform.position + new Vector3(0f, distanceUp, 0f);
+		characterOffset = followXform.position + new Vector3(0f, distanceUp, 0f)-characterOffset2;
 		distanceUpFree = distanceUp;
 		distanceAwayFree = distanceAway;
 		savedRigToGoal = RigToGoalDirection;
@@ -280,7 +281,7 @@ public class ThirdPersonCamera : MonoBehaviour
 			//leftTrigger = 1;
 		}
 		
-		characterOffset = followXform.position + (distanceUp * followXform.up);
+		characterOffset = followXform.position + (distanceUp * followXform.up)-characterOffset2;
 		Vector3 lookAt = characterOffset;
 		targetPosition = Vector3.zero;
 		

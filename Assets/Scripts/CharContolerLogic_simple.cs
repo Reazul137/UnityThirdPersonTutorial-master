@@ -46,6 +46,7 @@ public class CharContolerLogic_simple : MonoBehaviour {
 
 
 
+
 	void OnTriggerStay(Collider other) {
 		if (other.gameObject.tag == "DeepOcean")
 		{ 
@@ -169,17 +170,22 @@ public class CharContolerLogic_simple : MonoBehaviour {
 
 			RaycastHit hit;
 			MoveDirection = directionOut * directionSpeed * SprintSpeedModifier;
-			if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out hit, 2f) && !(Physics.Raycast (transform.position, transform.TransformDirection (Vector3.down), 0.55f)) ) {
-				if (hit.transform.tag == "Player") {
+
+	
+
+				if (Physics.Raycast (transform.position, transform.TransformDirection (Vector3.forward), out hit, 2f) && !(Physics.Raycast (transform.position, transform.TransformDirection (Vector3.down), 1.55f))) {
+					if (hit.transform.tag == "Player") {
 
 					rigidbody.velocity = new Vector3 (MoveDirection.x, rigidbody.velocity.y, MoveDirection.z);
 
-				}
 
-			} else {
+					}
+
+				} else {
 				
 				rigidbody.velocity = new Vector3 (MoveDirection.x, rigidbody.velocity.y, MoveDirection.z);
-			}
+				}
+
 
 
 			if (this.rigidbody.velocity.x != Vector3.zero.x && this.rigidbody.velocity.z != Vector3.zero.z) {
@@ -190,7 +196,7 @@ public class CharContolerLogic_simple : MonoBehaviour {
 				//print (Quaternion.LookRotation (LookdirectionOut));
 				Head.transform.rotation = Quaternion.Lerp (Head.transform.rotation, transform.rotation, Time.deltaTime * rotationSpeed * 2f);
 			} else {
-				Head.transform.rotation = Quaternion.LookRotation (LookdirectionOut);
+					Head.transform.rotation = Quaternion.LookRotation (LookdirectionOut);
 
 			}
 
@@ -204,7 +210,9 @@ public class CharContolerLogic_simple : MonoBehaviour {
 
 			if (Input.GetButton ("Run")) {
 				if (Physics.Raycast (transform.position, fwd, 0.55f)) {
-					SprintSpeedModifier = 2;
+					if (Physics.Raycast (transform.position+(Vector3.up), transform.TransformDirection (Vector3.down), 1.55f)) {
+						SprintSpeedModifier = 2;
+					}
 				}
 			} else {
 				SprintSpeedModifier = 1;

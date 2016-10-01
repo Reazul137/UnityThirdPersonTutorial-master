@@ -109,11 +109,13 @@ function Update () {
 
 	 	}
 
-	 	if(createType == 1)	Debug.DrawLine ( Vector3 (this.transform.position.x, 0, this.transform.position.z),Vector3 (this.transform.position.x, 100, this.transform.position.z), Color.green, 200 );
+	 	if(createType == 1){	Debug.DrawLine ( Vector3 (this.transform.position.x, 0, this.transform.position.z),Vector3 (this.transform.position.x, 100, this.transform.position.z), Color.green, 200 );
+							 	Instantiate (InterestPoint, this.transform.position, this.transform.rotation);
+	 	}
 	 	if(createType == 2)	Debug.DrawLine ( Vector3 (this.transform.position.x, 0, this.transform.position.z),Vector3 (this.transform.position.x, 100, this.transform.position.z), Color.blue, 200 );
 
 
-	 	Instantiate (InterestPoint, this.transform.position, this.transform.rotation);
+	 	//Instantiate (InterestPoint, this.transform.position, this.transform.rotation);
 	 	//InterestPoint.GetComponent.<Renderer>().material.color = Color.black;
 
 

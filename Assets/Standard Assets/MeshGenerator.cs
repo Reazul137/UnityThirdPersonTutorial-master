@@ -405,9 +405,10 @@ public class MeshGenerator : MonoBehaviour {
 
 	void materialRandom(){
 
-		UnityEngine.Random.seed = 1+(RegiaoInfo.OverWorldPositionX*100)+ RegiaoInfo.OverWorldPositionZ+this.GetInstanceID();
 
-		float GrassHue = UnityEngine.Random.Range(0.01F, 0.99F)*UnityEngine.Random.Range(0.01F, 0.99F);
+		UnityEngine.Random.seed = 1+(RegiaoInfo.OverWorldPositionX*100)+ RegiaoInfo.OverWorldPositionZ+ this.name.GetHashCode()	 ;
+
+		float GrassHue = UnityEngine.Random.Range(0.01F, 0.99F);
 		float GrassSat = UnityEngine.Random.Range(0.01F, 0.99F)*RegiaoInfo.Var_LightDark;
 		float GrassSpread = UnityEngine.Random.Range(0.01F, 0.99F)*RegiaoInfo.Var_Flora*RegiaoInfo.Var_Humidity;
 		cave.gameObject.GetComponent<Renderer> ().material.SetFloat ("_Grass_Hue",GrassHue);

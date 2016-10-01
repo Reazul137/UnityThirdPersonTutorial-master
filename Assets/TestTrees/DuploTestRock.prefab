@@ -103,6 +103,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 0
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -163,6 +164,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 1
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -216,7 +218,7 @@ SphereCollider:
   m_GameObject: {fileID: 109398}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.62
   m_Center: {x: 0, y: -0.0000004768373, z: 0.21000004}

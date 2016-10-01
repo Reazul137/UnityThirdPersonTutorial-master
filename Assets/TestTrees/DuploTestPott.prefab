@@ -163,6 +163,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 0
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -223,6 +224,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 0
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -283,6 +285,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 1
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5

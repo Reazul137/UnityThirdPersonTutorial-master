@@ -24,6 +24,8 @@ public class ScePropCreator : MonoBehaviour {
 	public float OverWorldPositionZ=0;
 
 
+	public bool isBio;
+
 
 
 
@@ -40,10 +42,16 @@ public class ScePropCreator : MonoBehaviour {
 			CreatMaster( Prop);
 
 		if (isRandom) {
-			Random.seed = (int)(12 + OverWorldPositionX * OverWorldPositionZ +this.GetInstanceID());
+			Random.seed = (int)(12 + OverWorldPositionX * OverWorldPositionZ +this.name.GetHashCode());
 			SiseVariant = Random.Range (0, 2) + Random.Range (0, 2);
 			AreaRadius = Random.Range (10, 40) * Random.Range (10, 20);
-			PropAmount = Random.Range (1, 100) + Random.Range (1, 200);
+
+			if (isBio) {
+				PropAmount = RegiaoInfo.Var_Flora*Random.Range (10, 100f) ;
+				//print (PropAmount);
+			} else { PropAmount = (Random.Range (1f, 1000f) + Random.Range (1f, 2000f));
+			}
+
 			PropSise = Random.Range (0.1f, 2) + Random.Range (0, 2);
 			RotVariant = RegiaoInfo.Var_Variety;
 		}
@@ -54,7 +62,7 @@ public class ScePropCreator : MonoBehaviour {
 		{
 			CreateNewProp (i);
 		}
-	
+		Destroy (this);
 	}
 	
 	// Update is called once per frame
@@ -104,8 +112,8 @@ public class ScePropCreator : MonoBehaviour {
 		foreach (Char_BodyMeshMorph peaceScript in MesterPeacesScript) {
 
 
-			int PropMesterSeed= Mathf.RoundToInt( (this.GetInstanceID())+this.transform.position.x+this.transform.position.z+ (this.OverWorldPositionX+100)+this.OverWorldPositionZ)+1;
-			print (PropMesterSeed);
+			int PropMesterSeed= Mathf.RoundToInt( (this.name.GetHashCode())+this.transform.position.x+this.transform.position.z+ (this.OverWorldPositionX+100)+this.OverWorldPositionZ)+1;
+			//print (PropMesterSeed);
 			peaceScript.ActivadeRandom (PropMesterSeed);
 			peaceScript.isRandom = false;
 			peaceScript.isColorRandom = false;

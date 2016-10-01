@@ -128,7 +128,7 @@ BoxCollider:
   m_GameObject: {fileID: 171304}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.46, y: 0.62, z: 0.96}
   m_Center: {x: 0, y: 0, z: 0.74}
@@ -140,7 +140,7 @@ BoxCollider:
   m_GameObject: {fileID: 109398}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.7, y: 0.7, z: 2}
   m_Center: {x: 0, y: 0, z: 0.66}
@@ -159,6 +159,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 0
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -219,6 +220,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 1
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -279,6 +281,7 @@ MonoBehaviour:
   isMonster: 1
   isColorRandom: 1
   useBones: 0
+  willCreateColider: 1
   seed: 0
   uvXpos: 0.5
   uvYpos: 0.5
@@ -332,7 +335,7 @@ SphereCollider:
   m_GameObject: {fileID: 171304}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Radius: 0.49
   m_Center: {x: 0, y: 0, z: 0}

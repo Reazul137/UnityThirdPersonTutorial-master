@@ -16,6 +16,8 @@ TagManager:
   - isClimbable
   - isPickUpable
   - RegiInfo
+  - InterencePoint
+  - PathArea
   layers:
   - Default
   - TransparentFX
